@@ -1,6 +1,6 @@
 /**
  * In-memory data store for Todos.
- * Contains 200 todos with the exact structure from JSONPlaceholder.
+ * Provides mock todo data for testing and development.
  */
 
 const todos = [];

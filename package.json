@@ -1,14 +1,14 @@
 {
   "name": "typicode-clone",
   "version": "1.0.0",
-  "description": "A complete REST API service that is an exact replica of JSONPlaceholder",
+  "description": "Mock REST API service for testing, prototyping and frontend development",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [
-    "jsonplaceholder",
+    "mock-api",
     "api",
     "rest-api",
     "mock-api",

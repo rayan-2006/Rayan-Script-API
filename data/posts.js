@@ -1,6 +1,6 @@
 /**
  * In-memory data store for Posts.
- * Contains 100 posts with the exact structure from JSONPlaceholder.
+ * Provides mock post data for testing and development.
  */
 
 const posts = [

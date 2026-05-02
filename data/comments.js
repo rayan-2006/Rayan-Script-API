@@ -1,6 +1,6 @@
 /**
  * In-memory data store for Comments.
- * Contains 500 comments with the exact structure from JSONPlaceholder.
+ * Provides mock comment data for testing and development.
  */
 
 const comments = [

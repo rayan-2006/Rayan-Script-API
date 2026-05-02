@@ -1,7 +1,8 @@
 /**
  * In-memory data store for Photos.
- * Contains 5000 photos with the exact structure from JSONPlaceholder.
+ * Provides mock photo data for testing and development.
  */
+
 
 const photos = [];
 

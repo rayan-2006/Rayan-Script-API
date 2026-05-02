@@ -1,6 +1,6 @@
 /**
  * In-memory data store for Albums.
- * Contains 100 albums with the exact structure from JSONPlaceholder.
+ * Provides mock data for testing and development purposes.
  */
 
 const albums = [];

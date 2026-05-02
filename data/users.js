@@ -1,6 +1,6 @@
 /**
  * In-memory data store for Users.
- * Contains 10 users with the exact structure from JSONPlaceholder.
+ * Provides mock user data for testing and development.
  */
 
 const users = [
