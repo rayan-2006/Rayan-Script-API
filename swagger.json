@@ -3,7 +3,7 @@
   "info": {
     "title": "Rayan Script API",
     "description": "A clean and modern REST API designed for testing, prototyping, and learning. Built with flexibility in mind, this API helps developers quickly integrate mock data into their projects and experiment with application ideas. Supports common REST resources including users, posts, comments, albums, photos, and todos — making it ideal for frontend development, API testing, tutorials, and CI/CD pipelines.\n\nContributions are welcome — feel free to fork the project and improve it!",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "contact": {
       "name": "Rayan",
       "url": "https://github.com/rayan-2006"

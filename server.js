@@ -7,6 +7,7 @@
  */
 
 const express = require('express');
+const cors = require('cors'); // Import CORS middleware
 const swaggerUi = require('swagger-ui-express');
 const rateLimit = require('express-rate-limit');
 const swaggerDocument = require('./swagger.json');
@@ -22,6 +23,24 @@ const todoRoutes = require('./routes/todos');
 // Initialize Express app
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// =====================================================
+// CORS Configuration
+// Allow requests from local frontend (development)
+// =====================================================
+
+const corsOptions = {
+  origin: 'http://localhost:5501',
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
+};
+
+// Enable CORS for all routes
+app.use(cors({ origin: true, credentials: true }));
+
+// Handle preflight requests
+app.options('*', cors({ origin: true, credentials: true }));
 
 // =====================================================
 // Middleware
