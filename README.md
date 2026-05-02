@@ -40,7 +40,7 @@ This API provides the following resources:
 1. **Clone or download the project**
 
 ```bash
-git clone https://github.com/rayan-2006/your-repo-name.git
+git clone https://github.com/rayan-2006/Rayan-Script-API
 cd your-repo-name
 ```
 
@@ -368,7 +368,7 @@ Feel free to fork, modify, and use this project as needed. If you have ideas for
 
 This project is provided as open-source and free to use. You are free to use, modify, and distribute it. (Released under the MIT License.)
 
-[my github](https://github.com/rayan-2006)
+[my github](https://github.com/rayan-2006);
 
 ---
 
